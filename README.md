@@ -16,7 +16,7 @@ It's important that the orange (as well as the gray) gets the whole width of the
 For this, it's important to notice that `Content View` has 2 `Equal Width` Constraints:
 
 - `=` @ Priority 250.
-- `>=` @ Priority 251.
+- `>=` @ Priority 1000.
 
 **Without this last one, the gray view would stop at the length of the label in landscape,<br />not allowing to position stuffs centered or right aligned.**
 
